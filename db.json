@@ -1,0 +1,70 @@
+{
+  "books": [
+    {
+      "id": 1666626303436,
+      "name": "FUESHG",
+      "author": "FEhef",
+      "categoryId": "2",
+      "isbn": "13142353"
+    },
+    {
+      "id": 1666798437775,
+      "name": "u6",
+      "author": "6ue",
+      "categoryId": "1",
+      "isbn": ""
+    },
+    {
+      "id": 1666993111993,
+      "name": "utyt9",
+      "author": "gıut",
+      "isbn": "",
+      "categoryId": "1"
+    },
+    {
+      "id": 1666993130207,
+      "name": "yp9y9p",
+      "author": "y8y8y",
+      "isbn": "",
+      "categoryId": "1"
+    },
+    {
+      "id": 1666993189321,
+      "name": "6p960668",
+      "author": "şotşotş",
+      "isbn": "",
+      "categoryId": "1"
+    },
+    {
+      "id": 1666995167901,
+      "name": "tey",
+      "author": "tq34t",
+      "isbn": "",
+      "categoryId": "1"
+    },
+    {
+      "id": 1666995636810,
+      "name": "ugu",
+      "author": "hııh",
+      "categoryId": "2",
+      "isbn": ""
+    },
+    {
+      "id": 1667037285511,
+      "name": "8e568u",
+      "author": "7ı667ı7",
+      "isbn": "ı6566",
+      "categoryId": "1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Roman"
+    },
+    {
+      "id": "2",
+      "name": "Felsefe"
+    }
+  ]
+}
