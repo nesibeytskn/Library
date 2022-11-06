@@ -7,7 +7,8 @@ const AddCategoryForm = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [categoryName, setCategoryName] = useState("");
-  const [categoriesState] = useSelector((state) => state);
+  const { categoriesState } = useSelector((state) => state);
+
   useEffect(() => {
     document.title = "Kitaplık - Kategori Ekle";
   }, []);
@@ -21,7 +22,7 @@ const AddCategoryForm = (props) => {
       (item) => item.name.toLowerCase() === categoryName.toLowerCase()
     );
     if (hasCategory !== undefined) {
-      alert("Bu kategori zten kayıtlıdır");
+      alert("Bu kategori zaten kayıtlıdır");
       return;
     }
     const newCategory = {

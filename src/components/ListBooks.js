@@ -36,7 +36,7 @@ const ListBooks = (props) => {
     //})
     //.catch((err) => console.log("books err", err));
   }, [searchText]);
-  const kitapSil = (id) => {
+  const deleteBook = (id) => {
     console.log(`http://localhost:3004/books/${id}`);
     axios
       .delete(`http://localhost:3004/books/${id}`)
@@ -131,8 +131,8 @@ const ListBooks = (props) => {
       {showModal === true && (
         <Modal
           title={silinecekKitapIsmi}
-          aciklama="Silmek istediğinizden emin misiniz?"
-          onConfirm={() => kitapSil(silinecekKitap)}
+          aciklama={`Silmek istediğinizden emin misiniz?`}
+          onConfirm={() => deleteBook(silinecekKitap)}
           onCancel={() => setShowModal(false)}
         />
       )}

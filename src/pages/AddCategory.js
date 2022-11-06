@@ -4,10 +4,10 @@ import AddCategoryForm from "../components/AddCategoryForm";
 
 const AddCategory = (props) => {
   return (
-    <>
+    <div>
       <Header />
       <AddCategoryForm />
-    </>
+    </div>
   );
 };
 

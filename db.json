@@ -1,70 +1,36 @@
 {
   "books": [
     {
-      "id": 1666626303436,
-      "name": "FUESHG",
-      "author": "FEhef",
-      "categoryId": "2",
-      "isbn": "13142353"
-    },
-    {
-      "id": 1666798437775,
-      "name": "u6",
-      "author": "6ue",
-      "categoryId": "1",
-      "isbn": ""
-    },
-    {
-      "id": 1666993111993,
-      "name": "utyt9",
-      "author": "gıut",
+      "id": 1667417543381,
+      "name": "Gülün Adı",
+      "author": "Umberto Eco",
       "isbn": "",
-      "categoryId": "1"
+      "categoryId": "1667416416287"
     },
     {
-      "id": 1666993130207,
-      "name": "yp9y9p",
-      "author": "y8y8y",
+      "id": 1667417600656,
+      "name": "Denemeler",
+      "author": "Montaigne",
       "isbn": "",
-      "categoryId": "1"
-    },
-    {
-      "id": 1666993189321,
-      "name": "6p960668",
-      "author": "şotşotş",
-      "isbn": "",
-      "categoryId": "1"
-    },
-    {
-      "id": 1666995167901,
-      "name": "tey",
-      "author": "tq34t",
-      "isbn": "",
-      "categoryId": "1"
-    },
-    {
-      "id": 1666995636810,
-      "name": "ugu",
-      "author": "hııh",
-      "categoryId": "2",
-      "isbn": ""
-    },
-    {
-      "id": 1667037285511,
-      "name": "8e568u",
-      "author": "7ı667ı7",
-      "isbn": "ı6566",
-      "categoryId": "1"
+      "categoryId": "1667417579617"
     }
   ],
   "categories": [
     {
       "id": "1",
-      "name": "Roman"
+      "name": "hikaye"
     },
     {
       "id": "2",
       "name": "Felsefe"
+    },
+    {
+      "id": 1667416416287,
+      "name": "Roman"
+    },
+    {
+      "id": 1667417579617,
+      "name": "Deneme"
     }
   ]
 }
